@@ -1,7 +1,8 @@
 """
-Creador masivo de playlists en Spotify - OPTIMIZADO
-Crea 25 playlists por cada usuario autorizado
-Usa los URIs directamente para evitar búsquedas
+Creador masivo de playlists en Spotify - CORREGIDO
+Distribuye las canciones circularmente entre usuarios
+Una canción por playlist, rotando entre todos los usuarios
+Incluye letras en descripciones usando Genius API
 """
 import os
 import requests
@@ -9,33 +10,42 @@ import json
 import time
 import base64
 from datetime import datetime
+import lyricsgenius
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-config = os.path.join(base_dir,"./Credencials/config.json")
-users = os.path.join(base_dir, "./Credencials/users.json")
-songs = os.path.join(base_dir, "./outputs/Dragons_data.json")
+config_path = os.path.join(base_dir, "./Credencials/config.json")
+users_path = os.path.join(base_dir, "./Credencials/users.json")
+songs_path = os.path.join(base_dir, "./outputs/Dragons_data.json")
 
 # Cargar configuración
-with open(config, 'r') as f:
+with open(config_path, 'r') as f:
     config = json.load(f)
 
 CLIENT_ID = config['spotify_client_id']
 CLIENT_SECRET = config['spotify_client_secret']
+GENIUS_TOKEN = config['genius_token']
 
 # Cargar usuarios autorizados
-with open(users, 'r') as f:
+with open(users_path, 'r') as f:
     users = json.load(f)
 
-# Cargar datos de canciones (generado por extract_spotify_data.py)
-with open(songs, 'r', encoding='utf-8') as f:
+# Cargar datos de canciones
+with open(songs_path, 'r', encoding='utf-8') as f:
     all_songs = json.load(f)
 
 
 class SpotifyPlaylistCreator:
-    def __init__(self, client_id, client_secret):
+    def __init__(self, client_id, client_secret, genius_token):
         self.client_id = client_id
         self.client_secret = client_secret
         self.base_url = "https://api.spotify.com/v1"
+        
+        # Inicializar Genius API
+        self.genius = lyricsgenius.Genius(genius_token)
+        self.genius.verbose = False
+        self.genius.remove_section_headers = True
+        self.genius.skip_non_songs = True
+        self.genius.timeout = 15
         
     def get_access_token(self, refresh_token):
         """Obtiene un access token usando el refresh token"""
@@ -63,19 +73,144 @@ class SpotifyPlaylistCreator:
             return response.json()['access_token']
         else:
             raise Exception(f"Error obteniendo token: {response.text}")
+    
+    def get_lyrics(self, song_name, artist_name):
+        """
+        Obtiene las letras de una canción usando Genius API
+        Retorna None si no se encuentran
+        """
+        try:
+            print(f"      🔍 Buscando letra: {song_name} {artist_name}")
+            song = self.genius.search_song(song_name, artist_name)
+            
+            if song and song.lyrics:
+                # Limpiar la letra (Genius agrega encabezados que no queremos)
+                lyrics = song.lyrics
+                
+                # Remover texto innecesario al inicio
+                if lyrics.startswith("Lyrics"):
+                    lyrics = lyrics[6:].strip()
+                
+                # Remover números de línea, URLs y otros metadatos
+                lines = lyrics.split('\n')
+                clean_lines = []
+                for line in lines:
+                    line = line.strip()
+                    # Filtrar líneas que son solo números o contienen "Embed"
+                    if line and not line.isdigit() and "Embed" not in line and "You might also like" not in line:
+                        clean_lines.append(line)
+                
+                clean_lyrics = '\n'.join(clean_lines)
+                print(f"      ✅ Letra encontrada ({len(clean_lyrics)} caracteres)")
+                return clean_lyrics
+            else:
+                print(f"      ⚠️ Letra no encontrada")
+                return None
+                
+        except Exception as e:
+            print(f"      ❌ Error buscando letra: {e}")
+            return None
+    
+    def clean_text_for_spotify(self, text):
+        """
+        Limpia el texto para que sea aceptado por Spotify
+        Remueve caracteres especiales problemáticos
+        """
+        import re
         
+        # Remover emojis y caracteres no ASCII problemáticos
+        text = text.encode('ascii', 'ignore').decode('ascii')
+        
+        # Remover caracteres de control y otros problemáticos
+        text = re.sub(r'[\x00-\x1F\x7F-\x9F]', '', text)
+        
+        # Limpiar espacios múltiples
+        text = re.sub(r'\s+', ' ', text)
+        
+        return text.strip()
+    
+    def create_playlist_title(self, song_name, artist_name, lyrics_preview):
+        """
+        Crea un título optimizado para la playlist
+        Formato: "Canción - Artista + preview de letra"
+        Máximo 100 caracteres
+        
+        Si no hay letra disponible, usa solo: "Canción - Artista"
+        """
+        # Limpiar nombres de caracteres problemáticos
+        song_name = self.clean_text_for_spotify(song_name)
+        artist_name = self.clean_text_for_spotify(artist_name)
+        
+        base_title = f"{song_name} {artist_name}"
+        
+        # Si el título base ya es muy largo, cortarlo
+        if len(base_title) >= 100:
+            return base_title[:97] + "..."
+        
+        # ⚠️ Si no hay letra, devolver solo el título base
+        if not lyrics_preview:
+            return base_title
+        
+        # Limpiar letra también
+        lyrics_preview = self.clean_text_for_spotify(lyrics_preview)
+        
+        # Calcular espacio disponible para la letra
+        available_space = 100 - len(base_title) - 3  # -3 para " | "
+        
+        if available_space > 10:
+            # Tomar las primeras líneas de la letra
+            first_line = lyrics_preview.split('\n')[0].strip()
+            
+            if first_line and len(first_line) <= available_space:
+                return f"{base_title}  {first_line}"
+            elif first_line:
+                # Cortar y agregar "..."
+                return f"{base_title}  {first_line[:available_space-3]}..."
+        
+        return base_title
+    
+    def create_playlist_description(self, lyrics):
+        """
+        Crea la descripción de la playlist SOLO con la letra
+        Spotify limita a 300 caracteres
+        """
+        if not lyrics:
+            # ⚠️ DESCRIPCIÓN CUANDO NO HAY LETRA
+            return "Letra no disponible."
+
+        import re
+        # Limpiar letra
+        lyrics = self.clean_text_for_spotify(lyrics)
+
+        # 👉 Corregir problema de palabras pegadas (salto de línea → espacio)
+        lyrics = re.sub(r'\n+', ' ', lyrics)  # reemplazar múltiples \n por un espacio
+        lyrics = re.sub(r'\s+', ' ', lyrics)  # limpiar espacios múltiples
+        
+        print(lyrics)
+        # Limitar a 300 caracteres
+        if len(lyrics) <= 300:
+            return lyrics.strip()
+        else:
+            truncated = lyrics[:297]
+            last_space = truncated.rfind(' ')
+            if last_space > 280:  # evita cortar palabras
+                truncated = truncated[:last_space]
+            return truncated.strip() + "..."
+
+    
     def get_artist_top_tracks(self, access_token, artist_id, country="US", limit=5):
-        """Devuelve las canciones top del artista (para elegir 2 adicionales)"""
+        """Devuelve las canciones top del artista"""
         headers = {"Authorization": f"Bearer {access_token}"}
         url = f"{self.base_url}/artists/{artist_id}/top-tracks?market={country}"
         response = requests.get(url, headers=headers)
         
         if response.status_code == 200:
             tracks = response.json().get("tracks", [])
-            return tracks[:limit]  # devuelve solo las primeras n
+            return tracks[:limit]
         else:
-            print(f"⚠️ Error obteniendo top tracks de {artist_id}: {response.text}")
+            print(f"   ⚠️ Error obteniendo top tracks: {response.status_code}")
             return []
+    
     def create_playlist(self, access_token, user_id, name, description=""):
         """Crea una playlist vacía"""
         headers = {
@@ -83,11 +218,25 @@ class SpotifyPlaylistCreator:
             'Content-Type': 'application/json'
         }
         
+        # Limpiar y validar datos
+        name = self.clean_text_for_spotify(name)
+        description = self.clean_text_for_spotify(description)
+        
+        # Truncar si es necesario
+        name = name[:100] if len(name) > 100 else name
+        description = description[:300] if len(description) > 300 else description
+        
         data = {
             'name': name,
             'description': description,
             'public': True
         }
+        
+        # DEBUG: Imprimir lo que se está enviando
+        print(f"   🔍 DEBUG - Enviando a Spotify:")
+        print(f"      User ID: {user_id}")
+        print(f"      Título ({len(name)} chars): {name[:80]}...")
+        print(f"      Descripción ({len(description)} chars): {description[:80]}...")
         
         response = requests.post(
             f"{self.base_url}/users/{user_id}/playlists",
@@ -95,10 +244,16 @@ class SpotifyPlaylistCreator:
             json=data
         )
         
-        if response.status_code == 201:
-            return response.json()
-        else:
+        # DEBUG: Mostrar respuesta completa si hay error
+        if response.status_code != 201:
+            print(f"   ❌ DEBUG - Respuesta completa:")
+            print(f"      Status: {response.status_code}")
+            print(f"      Body: {response.text}")
+            print(f"      Headers enviados: {headers}")
+            print(f"      Data enviado: {json.dumps(data, indent=2)}")
             raise Exception(f"Error creando playlist: {response.text}")
+        
+        return response.json()
     
     def add_tracks_to_playlist(self, access_token, playlist_id, track_uris):
         """Agrega canciones a una playlist"""
@@ -110,7 +265,6 @@ class SpotifyPlaylistCreator:
         # Spotify permite hasta 100 tracks por petición
         for i in range(0, len(track_uris), 100):
             batch = track_uris[i:i+100]
-            
             data = {'uris': batch}
             
             response = requests.post(
@@ -130,12 +284,10 @@ class SpotifyPlaylistCreator:
     def upload_playlist_image(self, access_token, playlist_id, image_url):
         """Descarga una imagen y la sube como cover de la playlist"""
         try:
-            # Descargar la imagen
             img_response = requests.get(image_url, timeout=10)
             if img_response.status_code != 200:
                 return False
             
-            # Convertir a base64 (Spotify requiere JPEG en base64)
             image_base64 = base64.b64encode(img_response.content).decode()
             
             headers = {
@@ -152,204 +304,256 @@ class SpotifyPlaylistCreator:
             return response.status_code == 202
             
         except Exception as e:
+            print(f"   ⚠️ Error subiendo imagen: {e}")
             return False
 
 
-def create_playlists_for_all_users():
-    """Crea 25 playlists para cada usuario"""
-    creator = SpotifyPlaylistCreator(CLIENT_ID, CLIENT_SECRET)
+def create_playlists_circular_distribution():
+    """
+    Crea playlists distribuyendo canciones circularmente entre usuarios
     
-    # Calcular distribución
-    total_songs = len(all_songs)
-    songs_per_playlist = 5  # Canciones por playlist
+    Lógica:
+    - Canción 1 → Usuario 1
+    - Canción 2 → Usuario 2
+    - ...
+    - Canción 10 → Usuario 10
+    - Canción 11 → Usuario 1 (reinicia)
+    """
+    creator = SpotifyPlaylistCreator(CLIENT_ID, CLIENT_SECRET, GENIUS_TOKEN)
+    
+    # Canciones promocionales (fijas para todas las playlists)
+    promo_tracks = [
+        "spotify:track:0zWYg2LyzO3VjH2qoV6igp",  # Promo 1
+        "spotify:track:2O1YSaONzFP8V7pXAVdpWS"   # Promo 2
+    ]
     
     print("\n" + "="*70)
-    print("🎵 SPOTIFY PLAYLIST CREATOR")
+    print("🎵 SPOTIFY PLAYLIST CREATOR - DISTRIBUCIÓN CIRCULAR")
     print("="*70)
     print(f"\n📊 Configuración:")
-    print(f"   • Usuarios: {len(users)}")
-    print(f"   • Playlists por usuario: 25")
-    print(f"   • Total playlists: {len(users) * 25}")
-    print(f"   • Canciones totales: {total_songs}")
-    print(f"   • Canciones por playlist: ~{songs_per_playlist}")
+    print(f"   • Total de usuarios: {len(users)}")
+    print(f"   • Total de canciones: {len(all_songs)}")
+    print(f"   • Playlists a crear: {len(all_songs)} (una por canción)")
+    print(f"   • Distribución: Circular entre {len(users)} usuarios")
+    print(f"   • Canciones por playlist: ~5 (1 principal + 2 extras + 2 promos)")
     print("\n" + "="*70 + "\n")
     
     # Log
     log = open('creation_log.txt', 'w', encoding='utf-8')
-    log.write(f"Inicio: {datetime.now()}\n\n")
+    log.write(f"Inicio: {datetime.now()}\n")
+    log.write(f"Distribución Circular: {len(all_songs)} canciones entre {len(users)} usuarios\n\n")
     
     stats = {
         'total_playlists': 0,
         'total_errors': 0,
-        'total_songs_added': 0
+        'total_songs_added': 0,
+        'playlists_por_usuario': {user['user_id']: 0 for user in users}
     }
     
-    for user_idx, user in enumerate(users, 1):
-        print(f"\n{'='*70}")
-        print(f"👤 Usuario {user_idx}/{len(users)}: {user['user_id']}") # type: ignore
-        print(f"{'='*70}")
+    # Obtener tokens de todos los usuarios al inicio
+    user_tokens = {}
+    print("🔐 Obteniendo tokens de acceso...\n")
+    for user in users:
+        try:
+            token = creator.get_access_token(user['refresh_token'])
+            user_tokens[user['user_id']] = token
+            print(f"   ✅ Token obtenido: {user['user_id']}")
+        except Exception as e:
+            print(f"   ❌ Error obteniendo token para {user['user_id']}: {e}")
+            log.write(f"❌ Error token: {user['user_id']} - {e}\n")
+    
+    print("\n" + "="*70 + "\n")
+    
+    # ===== DISTRIBUCIÓN CIRCULAR =====
+    # 🔧 PRUEBA: Cambiar all_songs por all_songs[:10] para probar solo 10 canciones
+    # 🔧 PRUEBA: Cambiar all_songs por all_songs[:1] para probar solo 1 canción
+    test_songs = all_songs[:1]  # ← CAMBIAR AQUÍ: [:1] = 1 canción, [:10] = 10 canciones, o quitar para todas
+    
+    print(f"⚠️  MODO PRUEBA: Procesando {len(test_songs)} de {len(all_songs)} canciones\n")
+    
+    # Iterar sobre las canciones (de prueba o todas)
+    for song_idx, song in enumerate(test_songs):
+        # Calcular a qué usuario le toca (distribución circular)
+        user_idx = song_idx % len(users)  # Módulo para hacer circular
+        current_user = users[user_idx]
+        
+        # Verificar si tenemos token para este usuario
+        if current_user['user_id'] not in user_tokens:
+            print(f"⚠️ [{song_idx + 1}/{len(test_songs)}] Sin token para {current_user['user_id']}, saltando...")
+            stats['total_errors'] += 1
+            continue
+        
+        access_token = user_tokens[current_user['user_id']]
         
         try:
-            # Obtener token
-            access_token = creator.get_access_token(user['refresh_token']) # type: ignore
-            print("✅ Token obtenido")
+            print(f"\n📝 [{song_idx + 1}/{len(test_songs)}] 👤 Usuario: {current_user['user_id']}")
+            print(f"   🎵 Canción: {song['song']} - {song['artist']}")
             
-                        # Crear 25 playlists
-            for playlist_num in range(1, 2):
-                try:
-                    # === Selección circular de canción base según usuario y playlist ===
-                    # Fórmula mejorada: hace que cada usuario empiece en distinta canción
-                    song_idx = ((user_idx - 1) * 25 + (playlist_num - 1)) % len(all_songs)
-                    first_song = all_songs[song_idx]
-
-                    playlist_name = f"{first_song['song']} - {first_song['artist']}"
-                    playlist_description = f"Playlist automática #{playlist_num} • Artista: {first_song['artist']}"
-
-                    print(f"\n📝 [{playlist_num}/25] {playlist_name[:50]}...")
-
-                    # Crear playlist
-                    playlist = creator.create_playlist(
-                        access_token,
-                        user['user_id'],  # type: ignore
-                        playlist_name,
-                        playlist_description
-                    )
-
-                    playlist_id = playlist['id']
-                    playlist_url = playlist['external_urls']['spotify']
-                    print(f"   ✅ Creada: {playlist_id}")
-
-                    # ===== Construcción de canciones =====
-                    track_uris = []
-
-                    # 1) Canción principal (del JSON)
-                    track_uris.append(first_song['uri'])
-
-                    # 2) Buscar ID del artista (ya viene en el JSON extraído)
-                    artist_id = first_song.get("artist_id")
-                    if not artist_id:
-                        artist_search = requests.get(
-                            f"https://api.spotify.com/v1/search",
-                            headers={"Authorization": f"Bearer {access_token}"},
-                            params={"q": first_song['artist'], "type": "artist", "limit": 1}
-                        ).json()
-                        if artist_search.get("artists", {}).get("items"):
-                            artist_id = artist_search["artists"]["items"][0]["id"]
-
-                    # 3) Extra tracks del artista (dos adicionales)
-                    extra_tracks_uris = []
-                    if artist_id:
-                        top_tracks = creator.get_artist_top_tracks(access_token, artist_id, limit=5)
-                        # evitar repetir la misma canción principal
-                        extra_tracks_uris = [
-                            t['uri'] for t in top_tracks if t['uri'] != first_song['uri']
-                        ][:2]
-
-                    # 4) Canciones promocionales (FIJAS o desde JSON aparte)
-                    promo_tracks = [
-                        "spotify:track:2O1YSaONzFP8V7pXAVdpWS",  # Promo 1
-                        "spotify:track:0zWYg2LyzO3VjH2qoV6igp"   # Promo 2
-                    ]
-
-                    # 5) Orden final: main + promo + extra + promo + extra
-                    ordered_tracks = [
-                        first_song['uri'],
-                        promo_tracks[0],
-                        extra_tracks_uris[0] if len(extra_tracks_uris) > 0 else None,
-                        promo_tracks[1],
-                        extra_tracks_uris[1] if len(extra_tracks_uris) > 1 else None
-                    ]
-
-                    # Quitar None
-                    ordered_tracks = [t for t in ordered_tracks if t]
-
-                    # Agregar canciones a playlist
-                    if ordered_tracks:
-                        if creator.add_tracks_to_playlist(access_token, playlist_id, ordered_tracks):
-                            print(f"   ✅ {len(ordered_tracks)} canciones agregadas")
-                            stats['total_songs_added'] += len(ordered_tracks)
-                        else:
-                            print(f"   ❌ Error agregando canciones")
-                            stats['total_errors'] += 1
-
-                    # Imagen de portada
-                    if first_song.get('image_url'):
-                        if creator.upload_playlist_image(access_token, playlist_id, first_song['image_url']):
-                            print(f"   ✅ Imagen subida")
-                        else:
-                            print(f"   ⚠️ Sin imagen")
-
-                    # Log
-                    log.write(f"✅ {user['user_id']} | PL#{playlist_num} | {playlist_name} | {playlist_url}\n")  # type: ignore
-                    stats['total_playlists'] += 1
-
-                    # Delay
-                    time.sleep(2)
-
-                except Exception as e:
-                    error = f"❌ Error en playlist {playlist_num}: {str(e)}"
-                    print(f"   {error}")
-                    log.write(f"{error}\n")
-                    stats['total_errors'] += 1
-                    time.sleep(5)
-
-
+            # ===== OBTENER LETRA =====
+            # 🔧 MODO DEBUG: Comentar esta línea para probar sin letras
+            lyrics = creator.get_lyrics(song['song'], song['artist'])
+            print(lyrics)
             
-            print(f"\n✅ Usuario completado: {user['user_id']}") # type: ignore
+            clean = creator.create_playlist_description(lyrics)
+            print(clean)
+            # 🔧 MODO DEBUG: Descomentar esto para probar SIN buscar letras
+            # lyrics = None
+            # print(f"      ⚠️ MODO DEBUG: Saltando búsqueda de letra")
             
-            # Delay entre usuarios
-            if user_idx < len(users):
-                print(f"\n⏸️ Esperando 15 segundos...")
-                time.sleep(15)
-        
+            # ===== CREAR TÍTULO Y DESCRIPCIÓN =====
+            # 🎨 AQUÍ SE GENERA EL NOMBRE DE LA PLAYLIST
+            # Puedes cambiarlo manualmente aquí si quieres un formato diferente:
+            playlist_name = creator.create_playlist_title(
+                song['song'], 
+                song['artist'], 
+                lyrics
+            )
+            
+            # 🎨 O usar un formato personalizado:
+            # playlist_name = f"{song['song']} - {song['artist']}"  # Simple
+            # playlist_name = f"🎵 {song['song']}"  # Solo canción con emoji
+            # playlist_name = f"{song['artist']}: {song['song']}"  # Artista primero
+            
+            playlist_description = creator.create_playlist_description(
+                lyrics
+            )
+            
+            print(f"   📋 Título: {playlist_name[:60]}...")
+            print(f"   📄 Descripción: {len(playlist_description)} caracteres")
+            
+            # Crear playlist
+            playlist = creator.create_playlist(
+                access_token,
+                current_user['user_id'],
+                playlist_name,
+                playlist_description
+            )
+            
+            playlist_id = playlist['id']
+            playlist_url = playlist['external_urls']['spotify']
+            print(f"   ✅ Playlist creada: {playlist_id}")
+            
+            # ===== Construcción de canciones =====
+            track_uris = []
+            
+            # 1) Canción principal
+            track_uris.append(song['uri'])
+            
+            # 2) Obtener 2 canciones adicionales del artista
+            extra_tracks = []
+            if song.get('artist_id'):
+                top_tracks = creator.get_artist_top_tracks(
+                    access_token, 
+                    song['artist_id'], 
+                    limit=5
+                )
+                # Evitar repetir la canción principal
+                extra_tracks = [
+                    t['uri'] for t in top_tracks 
+                    if t['uri'] != song['uri']
+                ][:2]
+            
+            # 3) Orden final: Principal → Promo1 → Extra1 → Promo2 → Extra2
+            ordered_tracks = [song['uri']]
+            
+            if len(promo_tracks) > 0:
+                ordered_tracks.append(promo_tracks[0])
+            
+            if len(extra_tracks) > 0:
+                ordered_tracks.append(extra_tracks[0])
+            
+            if len(promo_tracks) > 1:
+                ordered_tracks.append(promo_tracks[1])
+            
+            if len(extra_tracks) > 1:
+                ordered_tracks.append(extra_tracks[1])
+            
+            # Agregar canciones
+            if creator.add_tracks_to_playlist(access_token, playlist_id, ordered_tracks):
+                print(f"   ✅ {len(ordered_tracks)} canciones agregadas")
+                stats['total_songs_added'] += len(ordered_tracks)
+            else:
+                print(f"   ⚠️ Error agregando canciones")
+            
+            # Subir imagen
+            if song.get('image_url'):
+                if creator.upload_playlist_image(access_token, playlist_id, song['image_url']):
+                    print(f"   ✅ Imagen subida")
+                else:
+                    print(f"   ⚠️ Sin imagen")
+            
+            # Actualizar estadísticas
+            stats['total_playlists'] += 1
+            stats['playlists_por_usuario'][current_user['user_id']] += 1
+            
+            # Log
+            log.write(f"✅ [{song_idx + 1}] {current_user['user_id']} | {playlist_name} | {playlist_url}\n")
+            
+            # Delay entre peticiones (importante para evitar rate limits)
+            time.sleep(2)
+            
         except Exception as e:
-            error = f"❌ Error fatal con {user['user_id']}: {str(e)}" # type: ignore
-            print(f"\n{error}")
-            log.write(f"{error}\n")
+            error_msg = f"❌ Error en canción {song_idx + 1}: {str(e)}"
+            print(f"   {error_msg}")
+            log.write(f"{error_msg}\n")
             stats['total_errors'] += 1
+            time.sleep(3)
     
-    # Resumen
+    # ===== RESUMEN FINAL =====
     print("\n" + "="*70)
     print("🎉 PROCESO COMPLETADO")
     print("="*70)
-    print(f"\n📊 Estadísticas:")
-    print(f"   ✅ Playlists creadas: {stats['total_playlists']}")
+    print(f"\n📊 Estadísticas Globales:")
+    print(f"   ✅ Playlists creadas: {stats['total_playlists']}/{len(test_songs)}")
     print(f"   🎵 Canciones agregadas: {stats['total_songs_added']}")
     print(f"   ❌ Errores: {stats['total_errors']}")
     
     if stats['total_playlists'] > 0:
-        success_rate = (stats['total_playlists'] / (stats['total_playlists'] + stats['total_errors']) * 100)
+        success_rate = (stats['total_playlists'] / len(test_songs) * 100)
         print(f"   📈 Tasa de éxito: {success_rate:.1f}%")
     
-    print(f"\n📄 Log: creation_log.txt")
+    print(f"\n📊 Distribución por Usuario:")
+    for user_id, count in stats['playlists_por_usuario'].items():
+        print(f"   • {user_id}: {count} playlists")
+    
+    print(f"\n📄 Log detallado: creation_log.txt")
     print("="*70 + "\n")
     
-    log.write(f"\nFin: {datetime.now()}\n")
-    log.write(f"Playlists: {stats['total_playlists']}\n")
-    log.write(f"Canciones: {stats['total_songs_added']}\n")
-    log.write(f"Errores: {stats['total_errors']}\n")
+    # Guardar log final
+    log.write(f"\n{'='*60}\n")
+    log.write(f"Fin: {datetime.now()}\n")
+    log.write(f"Playlists creadas: {stats['total_playlists']}\n")
+    log.write(f"Canciones agregadas: {stats['total_songs_added']}\n")
+    log.write(f"Errores: {stats['total_errors']}\n\n")
+    log.write("Distribución por usuario:\n")
+    for user_id, count in stats['playlists_por_usuario'].items():
+        log.write(f"  {user_id}: {count} playlists\n")
     log.close()
 
 
 if __name__ == "__main__":
-    import os
-    
-    # Verificar archivos
+    # Verificar archivos necesarios
     required = ['./Credencials/config.json', './Credencials/users.json', './outputs/Dragons_data.json']
-    missing = [f for f in required if not os.path.exists(f)]
+    missing = [f for f in required if not os.path.exists(os.path.join(base_dir, f))]
     
     if missing:
         print(f"❌ Faltan archivos: {', '.join(missing)}")
         exit(1)
     
-    print("\n⚠️ IMPORTANTE:")
-    print(f"   • Se crearán {len(users) * 1} playlists")
-    print(f"   • Proceso estimado: {len(users) * 1} minutos")
-    print("   • No interrumpir hasta completar")
+    print("\n" + "="*70)
+    print("⚠️  INFORMACIÓN IMPORTANTE")
+    print("="*70)
+    print(f"\n📋 Se crearán:")
+    print(f"   • {len(all_songs)} playlists (una por cada canción del JSON)")
+    print(f"   • Distribuidas circularmente entre {len(users)} usuarios")
+    print(f"   • Cada playlist tendrá ~5 canciones (1 principal + extras + promos)")
+    print(f"\n⏱️  Tiempo estimado: ~{len(all_songs) * 2 / 60:.0f} minutos")
+    print(f"⚠️  No interrumpir el proceso hasta completar")
+    print("="*70 + "\n")
     
-    confirm = input("\n¿Continuar? (si/no): ").lower()
+    confirm = input("¿Continuar? (si/no): ").lower()
     
     if confirm in ['si', 's', 'yes', 'y']:
-        create_playlists_for_all_users()
+        create_playlists_circular_distribution()
     else:
-        print("Cancelado.")
+        print("\n❌ Proceso cancelado.")

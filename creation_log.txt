@@ -1,13 +1,18 @@
-Inicio: 2025-10-03 13:08:15.995027
+Inicio: 2025-10-03 16:27:25.282721
+Distribución Circular: 179 canciones entre 6 usuarios
 
-✅ 31rmyn3fzanw3vvacewb45zxn3ci | PL#1 | There’d Better Be A Mirrorball - Arctic Monkeys | https://open.spotify.com/playlist/2aX5m6sIXgx3sVcTpABysa
-✅ 31km7qomzzsvgzwhbfrlsyl5vqui | PL#1 | Arabella - Arctic Monkeys | https://open.spotify.com/playlist/13UEHW5VTIGVltkhPzjz0x
-✅ 31tjgs4w76irse7ejtf2hybxlgcm | PL#1 | Hard as a Rock - AC/DC | https://open.spotify.com/playlist/1g0WRZwZDimAT0zHOKW23W
-✅ 31wa6pm5q2qkcgpmdg4tjjvlboea | PL#1 | There’d Better Be A Mirrorball - Arctic Monkeys | https://open.spotify.com/playlist/6sdKqhTOdDYXfMWZM6QXMw
-✅ 31apgk5dvwfd3gido4vjnxex5rdu | PL#1 | Arabella - Arctic Monkeys | https://open.spotify.com/playlist/1rh9K80ip1UvnUhPE6fwBl
-✅ 3172ihm3v43tkdr74q3jogrxxr24 | PL#1 | Hard as a Rock - AC/DC | https://open.spotify.com/playlist/3cypCUYOKraKIvDkDYfgx7
+✅ [1] 31rmyn3fzanw3vvacewb45zxn3ci | ALL MY LOVE Coldplay  We've been through lowBeen through sunshine, been through snowAll the colo... | https://open.spotify.com/playlist/70C2y32tdPXdevPGVuuN7C
 
-Fin: 2025-10-03 13:10:20.358337
-Playlists: 6
-Canciones: 30
+============================================================
+Fin: 2025-10-03 16:27:38.435767
+Playlists creadas: 1
+Canciones agregadas: 5
 Errores: 0
+
+Distribución por usuario:
+  31rmyn3fzanw3vvacewb45zxn3ci: 1 playlists
+  31km7qomzzsvgzwhbfrlsyl5vqui: 0 playlists
+  31tjgs4w76irse7ejtf2hybxlgcm: 0 playlists
+  31wa6pm5q2qkcgpmdg4tjjvlboea: 0 playlists
+  31apgk5dvwfd3gido4vjnxex5rdu: 0 playlists
+  3172ihm3v43tkdr74q3jogrxxr24: 0 playlists

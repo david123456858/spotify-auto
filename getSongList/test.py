@@ -73,7 +73,7 @@ def procesar_json(json_path, all_tracks):
 print("Procesando archivos JSON...")
 procesar_json(json1_path, all_tracks)
 procesar_json(json2_path, all_tracks)
-procesar_json(json3_path, all_tracks)
+# procesar_json(json3_path, all_tracks)
 
 print(f"✅ Total de canciones procesadas: {len(all_tracks)}")
 

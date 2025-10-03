@@ -110,3 +110,8 @@ for i, track in enumerate(all_tracks[:3], 1):
     print(f"   Artista: {track['artist']}")
     print(f"   URI: {track['uri']}")
     print(f"   Imagen: {track['image_url'][:60]}..." if track['image_url'] else "   Imagen: No disponible")
+    
+    
+    
+    
+    

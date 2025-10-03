@@ -13,11 +13,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -29,9 +29,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -39,31 +39,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02c36e70cc8773d82d21520331",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851c36e70cc8773d82d21520331",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273c36e70cc8773d82d21520331",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "AM",
-                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                    "name": "Hard Skool",
+                                    "uri": "spotify:album:2UWJ1UJybSEmQZ87lQHmp0"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -73,7 +73,7 @@
                                         "items": []
                                     },
                                     "videoAssociations": {
-                                        "totalCount": 1
+                                        "totalCount": 0
                                     }
                                 },
                                 "contentRating": {
@@ -81,111 +81,20 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 207356
+                                    "totalMilliseconds": 221892
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Arabella",
+                                "name": "Hard Skool",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "673402967",
-                                "trackNumber": 4,
-                                "uri": "spotify:track:7nzsY8vlnKdvGOEE0rjAXZ"
-                            }
-                        },
-                        "uid": "63323661633561333064313434363038"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02f65d720a5d70dbb93e96d528",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851f65d720a5d70dbb93e96d528",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Humbug",
-                                    "uri": "spotify:album:5IEoiwkThhRmSMBANhpxl2"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 1
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 205746
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "My Propeller",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "99288425",
+                                "playcount": "24548431",
                                 "trackNumber": 1,
-                                "uri": "spotify:track:2hmHlBM0kPBm17Y7nVIW9f"
+                                "uri": "spotify:track:1Pvmzboyxwp1rOVYqwKIgU"
                             }
                         },
-                        "uid": "39393331646233353735333836613935"
+                        "uid": "31383634306231333536633365396165"
                     },
                     {
                         "addedAt": {
@@ -195,11 +104,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -211,9 +120,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -221,304 +130,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02e44963b8bb127552ac761873",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851e44963b8bb127552ac761873",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273e44963b8bb127552ac761873",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "Favourite Worst Nightmare",
-                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                    "name": "Use Your Illusion I",
+                                    "uri": "spotify:album:0CxPbTRARqKUYighiEY9Sz"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 193226
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Old Yellow Bricks",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "211712571",
-                                "trackNumber": 11,
-                                "uri": "spotify:track:5KGbRvZyVyKP2AEJMHErB4"
-                            }
-                        },
-                        "uid": "35666134383431646632323032376161"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e026b3fa88bdd4af566fbbf2bbf",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048516b3fa88bdd4af566fbbf2bbf",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Whatever People Say I Am, That's What I'm Not",
-                                    "uri": "spotify:album:50Zz8CkIhATKUlQMbHO3k1"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 141133
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Dancing Shoes",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "126714588",
-                                "trackNumber": 4,
-                                "uri": "spotify:track:0hAMkY2kwdXPPDfQ1e3BmJ"
-                            }
-                        },
-                        "uid": "66333737326335363334336333356235"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02cb44038b22f3d8a5e4e62d5a",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851cb44038b22f3d8a5e4e62d5a",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Suck It and See",
-                                    "uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 203880
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Piledriver Waltz",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "103331397",
-                                "trackNumber": 9,
-                                "uri": "spotify:track:4Ai0ANRDYwx6mCD4Uty1WS"
-                            }
-                        },
-                        "uid": "30613839663132363864626438316462"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e0266081408a44e4176f20bad86",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d0000485166081408a44e4176f20bad86",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b27366081408a44e4176f20bad86",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "I Bet You Look Good On The Dancefloor",
-                                    "uri": "spotify:album:2rkuPRtC7rZlcsOCwTmdpF"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -536,20 +172,20 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 180640
+                                    "totalMilliseconds": 202040
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Bigger Boys and Stolen Sweethearts",
+                                "name": "Double Talkin' Jive",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "74300853",
-                                "trackNumber": 2,
-                                "uri": "spotify:track:4TC0dnB5DxvoKcsalffFZe"
+                                "playcount": "31049391",
+                                "trackNumber": 9,
+                                "uri": "spotify:track:46AtSShP5IL2Ls3uHpxmt8"
                             }
                         },
-                        "uid": "65663662336234316261616366613839"
+                        "uid": "64313430613138353866383363613364"
                     },
                     {
                         "addedAt": {
@@ -559,11 +195,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -575,9 +211,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -585,122 +221,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e029492a8654d20da695b987d49",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "url": "https://i.scdn.co/image/ab67616d000048519492a8654d20da695b987d49",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2739492a8654d20da695b987d49",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "Favourite Worst Nightmare",
-                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                    "name": "Perhaps",
+                                    "uri": "spotify:album:2CoWZzMwNzNI49Ip5IvSbb"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 184760
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Only Ones Who Know",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "158791893",
-                                "trackNumber": 6,
-                                "uri": "spotify:track:71ytDkCnYc11VRiRCrhDHX"
-                            }
-                        },
-                        "uid": "64633435646637616138613764333735"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02fc5f23d71de7ad824565f94c",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851fc5f23d71de7ad824565f94c",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273fc5f23d71de7ad824565f94c",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Leave Before The Lights Come On",
-                                    "uri": "spotify:album:219r3vm32Uzj5Ef7lu9aKw"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -718,20 +263,20 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 233946
+                                    "totalMilliseconds": 228406
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Leave Before The Lights Come On",
+                                "name": "Perhaps",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "66052811",
+                                "playcount": "12035937",
                                 "trackNumber": 1,
-                                "uri": "spotify:track:4Du0BRUJvKybzxcRplp7HF"
+                                "uri": "spotify:track:1xl3tncP1hSU9EPkIY535i"
                             }
                         },
-                        "uid": "36393032313039623934356463306663"
+                        "uid": "32396565656438633861323532363438"
                     },
                     {
                         "addedAt": {
@@ -741,11 +286,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -757,9 +302,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -767,31 +312,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02cb44038b22f3d8a5e4e62d5a",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02e60da07908a74190116673d3",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851cb44038b22f3d8a5e4e62d5a",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851e60da07908a74190116673d3",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273e60da07908a74190116673d3",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "Suck It and See",
-                                    "uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst"
+                                    "name": "Shadow Of Your Love",
+                                    "uri": "spotify:album:6AK5hiec0u0guq19bKlSMm"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -809,20 +354,384 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 191426
+                                    "totalMilliseconds": 185573
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Love is a Laserquest",
+                                "name": "Shadow Of Your Love",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "107533285",
+                                "playcount": "31749262",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:5tqSUxm3Wpql0dlLMrIAp1"
+                            }
+                        },
+                        "uid": "37613436663235643638353261343764"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02e29a351729da4d29214e54e2",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851e29a351729da4d29214e54e2",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273e29a351729da4d29214e54e2",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Chinese Democracy",
+                                    "uri": "spotify:album:0suNLpB9xraAv1FcdlITjQ"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 400693
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "There Was A Time",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "18826474",
+                                "trackNumber": 6,
+                                "uri": "spotify:track:2PrmCyoClC4ulLJR42z74O"
+                            }
+                        },
+                        "uid": "31323863353362336232396231623364"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02d8a68fd3e16f7ff6932b47d9",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851d8a68fd3e16f7ff6932b47d9",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273d8a68fd3e16f7ff6932b47d9",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "The Spaghetti Incident?",
+                                    "uri": "spotify:album:4ieR19hRkKeE81CalJPQNu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 234906
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Hair Of The Dog",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "17624629",
+                                "trackNumber": 8,
+                                "uri": "spotify:track:1kq4BX4zZHyr4O5cJGcduh"
+                            }
+                        },
+                        "uid": "61663333626364393930353739613161"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024500f9135365f61270829503",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514500f9135365f61270829503",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734500f9135365f61270829503",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "G N' R Lies",
+                                    "uri": "spotify:album:6z5LStxyQzrUTrVxjiOXVU"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 235200
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Mama Kin - Live Version",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "11235458",
+                                "trackNumber": 4,
+                                "uri": "spotify:track:5elBPrrIM4dWbGVTluXBPl"
+                            }
+                        },
+                        "uid": "61383436663431623134616663393531"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02910d3e3977eb25c5a5c8adb1",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851910d3e3977eb25c5a5c8adb1",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273910d3e3977eb25c5a5c8adb1",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Live Era '87-'93",
+                                    "uri": "spotify:album:3ZwjaVcnVo2TwhK8N8WWVs"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 187333
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "It's Alright - Live In Houston / 1992",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "7805987",
                                 "trackNumber": 10,
-                                "uri": "spotify:track:0S6CXA5LpRDX6b4akgrOot"
+                                "uri": "spotify:track:7hNhaEqwJCmd4nizXsqtLX"
                             }
                         },
-                        "uid": "31316139393461643935613234386164"
+                        "uid": "62633062393263663533623935356564"
                     },
                     {
                         "addedAt": {
@@ -832,11 +741,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -848,9 +757,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -858,31 +767,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02efc855fc2b898212fdd7ef11",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02e29a351729da4d29214e54e2",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851efc855fc2b898212fdd7ef11",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851e29a351729da4d29214e54e2",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273efc855fc2b898212fdd7ef11",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273e29a351729da4d29214e54e2",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "Fluorescent Adolescent",
-                                    "uri": "spotify:album:5SkPWtT5QFPsV2ix1J5Lnm"
+                                    "name": "Chinese Democracy",
+                                    "uri": "spotify:album:0suNLpB9xraAv1FcdlITjQ"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -900,20 +809,20 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 183253
+                                    "totalMilliseconds": 374186
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Too Much To Ask",
+                                "name": "Sorry",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "56138649",
-                                "trackNumber": 4,
-                                "uri": "spotify:track:1LSwssG5oIAMXYcvpOoPLC"
+                                "playcount": "17587322",
+                                "trackNumber": 10,
+                                "uri": "spotify:track:4g9TfQAiEN6lDNRJJsiU9T"
                             }
                         },
-                        "uid": "64656536653361363636303530343963"
+                        "uid": "61613035353238396239373036646335"
                     },
                     {
                         "addedAt": {
@@ -923,11 +832,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -939,9 +848,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -949,31 +858,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02f65d720a5d70dbb93e96d528",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02d8a68fd3e16f7ff6932b47d9",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851f65d720a5d70dbb93e96d528",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851d8a68fd3e16f7ff6932b47d9",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273d8a68fd3e16f7ff6932b47d9",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "Humbug",
-                                    "uri": "spotify:album:5IEoiwkThhRmSMBANhpxl2"
+                                    "name": "The Spaghetti Incident?",
+                                    "uri": "spotify:album:4ieR19hRkKeE81CalJPQNu"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -984,1007 +893,6 @@
                                     },
                                     "videoAssociations": {
                                         "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 220506
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Pretty Visitors",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "66527814",
-                                "trackNumber": 9,
-                                "uri": "spotify:track:45n7uujqwmMyBMjBu9SwRu"
-                            }
-                        },
-                        "uid": "33356633633063343661366166626432"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e028895ff0f90525f4aa9437c27",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048518895ff0f90525f4aa9437c27",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Tranquility Base Hotel & Casino",
-                                    "uri": "spotify:album:7v6FNgLDS8KmaWA1amUtqe"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 1
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 312346
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Four Out Of Five",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "145388090",
-                                "trackNumber": 6,
-                                "uri": "spotify:track:5Z5nbOXhsSbySVC7WUc6y9"
-                            }
-                        },
-                        "uid": "34353932333533666261613036396631"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02cb44038b22f3d8a5e4e62d5a",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851cb44038b22f3d8a5e4e62d5a",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Suck It and See",
-                                    "uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 1
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 225986
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Suck It and See",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "114841561",
-                                "trackNumber": 11,
-                                "uri": "spotify:track:0LxeKwg9t7HOnyfv4bTALT"
-                            }
-                        },
-                        "uid": "31343434356439633332363632363738"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e0207823ee6237208c835802663",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d0000485107823ee6237208c835802663",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b27307823ee6237208c835802663",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "The Car",
-                                    "uri": "spotify:album:2GROf0WKoP5Er2M9RXVNNs"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 1
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 239151
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Sculptures Of Anything Goes",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "54932973",
-                                "trackNumber": 3,
-                                "uri": "spotify:track:5hljqZrl0h7RcIhUnOPuve"
-                            }
-                        },
-                        "uid": "65333637353937663038623362336431"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02f65d720a5d70dbb93e96d528",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851f65d720a5d70dbb93e96d528",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Humbug",
-                                    "uri": "spotify:album:5IEoiwkThhRmSMBANhpxl2"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 283493
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Dance Little Liar",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "56807787",
-                                "trackNumber": 8,
-                                "uri": "spotify:track:3u16Clmxz7dJpnQWXXynok"
-                            }
-                        },
-                        "uid": "34656363363637666230656434666263"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e022c384839c0db88884f0b8037",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048512c384839c0db88884f0b8037",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2732c384839c0db88884f0b8037",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "One For The Road",
-                                    "uri": "spotify:album:7FwV5ibe9JVQZvnR9brOz2"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 182751
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "You're So Dark",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "44406916",
-                                "trackNumber": 2,
-                                "uri": "spotify:track:40DwUg5zPX8H23WpTdD2iW"
-                            }
-                        },
-                        "uid": "35656531633666326466613234303938"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02cb44038b22f3d8a5e4e62d5a",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851cb44038b22f3d8a5e4e62d5a",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Suck It and See",
-                                    "uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 234920
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "She's Thunderstorms",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "86915053",
-                                "trackNumber": 1,
-                                "uri": "spotify:track:5xw2cHVLw1rlDPp3cL9Zuv"
-                            }
-                        },
-                        "uid": "64386136643731616263373463333461"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e028895ff0f90525f4aa9437c27",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048518895ff0f90525f4aa9437c27",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Tranquility Base Hotel & Casino",
-                                    "uri": "spotify:album:7v6FNgLDS8KmaWA1amUtqe"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 208640
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "One Point Perspective",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "85416561",
-                                "trackNumber": 2,
-                                "uri": "spotify:track:1t67WYNfUxfOiwaz7SJ66b"
-                            }
-                        },
-                        "uid": "61623037353334663935316335376433"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02efc855fc2b898212fdd7ef11",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851efc855fc2b898212fdd7ef11",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273efc855fc2b898212fdd7ef11",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Fluorescent Adolescent",
-                                    "uri": "spotify:album:5SkPWtT5QFPsV2ix1J5Lnm"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 176520
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "The Bakery",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "38770760",
-                                "trackNumber": 2,
-                                "uri": "spotify:track:2amJsWuU8ohAth78f2QOLD"
-                            }
-                        },
-                        "uid": "37633834346237663935303565306231"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e0207823ee6237208c835802663",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d0000485107823ee6237208c835802663",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b27307823ee6237208c835802663",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "The Car",
-                                    "uri": "spotify:album:2GROf0WKoP5Er2M9RXVNNs"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 237984
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Big Ideas",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "34111952",
-                                "trackNumber": 7,
-                                "uri": "spotify:track:4KPi4VNvPOfKqIp1sx19Xf"
-                            }
-                        },
-                        "uid": "32633761393931303661326563613766"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02cb44038b22f3d8a5e4e62d5a",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851cb44038b22f3d8a5e4e62d5a",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Suck It and See",
-                                    "uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 1
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 183506
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Don't Sit Down 'Cause I've Moved Your Chair",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "99928229",
-                                "trackNumber": 5,
-                                "uri": "spotify:track:3czdA0j4iaLDJJCoT5D8iP"
-                            }
-                        },
-                        "uid": "35326236363036313134306237326439"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e028895ff0f90525f4aa9437c27",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048518895ff0f90525f4aa9437c27",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2738895ff0f90525f4aa9437c27",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Tranquility Base Hotel & Casino",
-                                    "uri": "spotify:album:7v6FNgLDS8KmaWA1amUtqe"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 1
                                     }
                                 },
                                 "contentRating": {
@@ -1992,111 +900,20 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 211967
+                                    "totalMilliseconds": 208506
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Tranquility Base Hotel & Casino",
+                                "name": "Down On The Farm",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "92861601",
-                                "trackNumber": 4,
-                                "uri": "spotify:track:2URDbWGmPz3vhagl25p8OC"
-                            }
-                        },
-                        "uid": "61353465306631326630313664653838"
-                    },
-                    {
-                        "addedAt": {
-                            "isoString": "1970-01-01T00:00:00Z"
-                        },
-                        "addedBy": null,
-                        "attributes": [
-                            {
-                                "key": "added_at",
-                                "value": "1759409433452"
-                            },
-                            {
-                                "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
-                            }
-                        ],
-                        "itemV2": {
-                            "__typename": "TrackResponseWrapper",
-                            "data": {
-                                "__typename": "Track",
-                                "albumOfTrack": {
-                                    "artists": {
-                                        "items": [
-                                            {
-                                                "profile": {
-                                                    "name": "Arctic Monkeys"
-                                                },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                            }
-                                        ]
-                                    },
-                                    "coverArt": {
-                                        "sources": [
-                                            {
-                                                "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e024fe0b5be5a42d53d5bc645f7",
-                                                "width": 300
-                                            },
-                                            {
-                                                "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d000048514fe0b5be5a42d53d5bc645f7",
-                                                "width": 64
-                                            },
-                                            {
-                                                "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b2734fe0b5be5a42d53d5bc645f7",
-                                                "width": 640
-                                            }
-                                        ]
-                                    },
-                                    "name": "Who The F*** Are Arctic Monkeys?",
-                                    "uri": "spotify:album:3tEGBDGnejHf4mx1YSqKnb"
-                                },
-                                "artists": {
-                                    "items": [
-                                        {
-                                            "profile": {
-                                                "name": "Arctic Monkeys"
-                                            },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
-                                        }
-                                    ]
-                                },
-                                "associationsV3": {
-                                    "audioAssociations": {
-                                        "__typename": "TrackAudioAssociationPage",
-                                        "items": []
-                                    },
-                                    "videoAssociations": {
-                                        "totalCount": 0
-                                    }
-                                },
-                                "contentRating": {
-                                    "label": "NONE"
-                                },
-                                "discNumber": 1,
-                                "trackDuration": {
-                                    "totalMilliseconds": 202853
-                                },
-                                "mediaType": "AUDIO",
-                                "name": "Despair In The Departure Lounge",
-                                "playability": {
-                                    "playable": true,
-                                    "reason": "PLAYABLE"
-                                },
-                                "playcount": "44752376",
+                                "playcount": "8049697",
                                 "trackNumber": 3,
-                                "uri": "spotify:track:605E2oDpy3uSIhbRFcrQyn"
+                                "uri": "spotify:track:1AU7nLoyAO170E6V5iZkEM"
                             }
                         },
-                        "uid": "31333563616262326266313536653231"
+                        "uid": "38333366346234373833336139316435"
                     },
                     {
                         "addedAt": {
@@ -2106,11 +923,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -2122,9 +939,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -2132,31 +949,213 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e0207823ee6237208c835802663",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02273eef956e3293dd0c1b89b1",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d0000485107823ee6237208c835802663",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851273eef956e3293dd0c1b89b1",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b27307823ee6237208c835802663",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273273eef956e3293dd0c1b89b1",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "The Car",
-                                    "uri": "spotify:album:2GROf0WKoP5Er2M9RXVNNs"
+                                    "name": "Use Your Illusion (Super Deluxe)",
+                                    "uri": "spotify:album:1nnC02B9bhYh6IVFOoij0k"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 4,
+                                "trackDuration": {
+                                    "totalMilliseconds": 698200
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Hotel California / Only Women Bleed / Knockin' On Heaven's Door - Live In Las Vegas, Thomas & Mack Center - January 25, 1992",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "3604461",
+                                "trackNumber": 23,
+                                "uri": "spotify:track:4lOISkmUcErziyEn4jHSy2"
+                            }
+                        },
+                        "uid": "61333830303164313639383863353435"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02275b7ffe49eb84ab13a71980",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851275b7ffe49eb84ab13a71980",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273275b7ffe49eb84ab13a71980",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Appetite For Destruction (Super Deluxe Edition)",
+                                    "uri": "spotify:album:3edmYBHOTxfz8NxJE1QmTP"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 2,
+                                "trackDuration": {
+                                    "totalMilliseconds": 214240
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Move To The City - Live",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "8683042",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:7n7YoJuPdy7NuEISVF1sJK"
+                            }
+                        },
+                        "uid": "65313034633535373063613566346536"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02e29a351729da4d29214e54e2",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851e29a351729da4d29214e54e2",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273e29a351729da4d29214e54e2",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Chinese Democracy",
+                                    "uri": "spotify:album:0suNLpB9xraAv1FcdlITjQ"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -2174,20 +1173,20 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 244932
+                                    "totalMilliseconds": 216600
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Hello You",
+                                "name": "Shackler's Revenge",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "33000040",
-                                "trackNumber": 8,
-                                "uri": "spotify:track:5ygEUpyZy5qtZ1423zymBW"
+                                "playcount": "16096805",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:0S9eOzGwLHUwmjYvB5jG4x"
                             }
                         },
-                        "uid": "36636238623436643437383936616335"
+                        "uid": "30663136316362333039316366303037"
                     },
                     {
                         "addedAt": {
@@ -2197,11 +1196,11 @@
                         "attributes": [
                             {
                                 "key": "added_at",
-                                "value": "1759409433452"
+                                "value": "1759498760070"
                             },
                             {
                                 "key": "decision_id",
-                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
                             }
                         ],
                         "itemV2": {
@@ -2213,9 +1212,9 @@
                                         "items": [
                                             {
                                                 "profile": {
-                                                    "name": "Arctic Monkeys"
+                                                    "name": "Guns N' Roses"
                                                 },
-                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                             }
                                         ]
                                     },
@@ -2223,31 +1222,31 @@
                                         "sources": [
                                             {
                                                 "height": 300,
-                                                "url": "https://i.scdn.co/image/ab67616d00001e02cb44038b22f3d8a5e4e62d5a",
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02d8a68fd3e16f7ff6932b47d9",
                                                 "width": 300
                                             },
                                             {
                                                 "height": 64,
-                                                "url": "https://i.scdn.co/image/ab67616d00004851cb44038b22f3d8a5e4e62d5a",
+                                                "url": "https://i.scdn.co/image/ab67616d00004851d8a68fd3e16f7ff6932b47d9",
                                                 "width": 64
                                             },
                                             {
                                                 "height": 640,
-                                                "url": "https://i.scdn.co/image/ab67616d0000b273cb44038b22f3d8a5e4e62d5a",
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273d8a68fd3e16f7ff6932b47d9",
                                                 "width": 640
                                             }
                                         ]
                                     },
-                                    "name": "Suck It and See",
-                                    "uri": "spotify:album:2ym2jcqckXqWeTDoxz3Kst"
+                                    "name": "The Spaghetti Incident?",
+                                    "uri": "spotify:album:4ieR19hRkKeE81CalJPQNu"
                                 },
                                 "artists": {
                                     "items": [
                                         {
                                             "profile": {
-                                                "name": "Arctic Monkeys"
+                                                "name": "Guns N' Roses"
                                             },
-                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
                                         }
                                     ]
                                 },
@@ -2257,7 +1256,98 @@
                                         "items": []
                                     },
                                     "videoAssociations": {
-                                        "totalCount": 1
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 87000
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Attitude",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "16256012",
+                                "trackNumber": 9,
+                                "uri": "spotify:track:0ivarc4umuzp5I3J7lPDJc"
+                            }
+                        },
+                        "uid": "65336130626331336636316538316232"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02900b1c5826a45d04dd18404d",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851900b1c5826a45d04dd18404d",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273900b1c5826a45d04dd18404d",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "The General",
+                                    "uri": "spotify:album:1n3udjedXeuxUh8vU46giM"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
                                     }
                                 },
                                 "contentRating": {
@@ -2265,27 +1355,664 @@
                                 },
                                 "discNumber": 1,
                                 "trackDuration": {
-                                    "totalMilliseconds": 217440
+                                    "totalMilliseconds": 262776
                                 },
                                 "mediaType": "AUDIO",
-                                "name": "Black Treacle",
+                                "name": "The General",
                                 "playability": {
                                     "playable": true,
                                     "reason": "PLAYABLE"
                                 },
-                                "playcount": "78654517",
-                                "trackNumber": 2,
-                                "uri": "spotify:track:7EUcOIbJSePmXGvAe7G79C"
+                                "playcount": "4454458",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:4kXbOjC3XfBpFR3zbWbHZv"
                             }
                         },
-                        "uid": "38666662383735396339386233643434"
+                        "uid": "66643138653762646130363837643963"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02275b7ffe49eb84ab13a71980",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851275b7ffe49eb84ab13a71980",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273275b7ffe49eb84ab13a71980",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Appetite For Destruction (Super Deluxe Edition)",
+                                    "uri": "spotify:album:3edmYBHOTxfz8NxJE1QmTP"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 2,
+                                "trackDuration": {
+                                    "totalMilliseconds": 201613
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Reckless Life - Live",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "11150535",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:0iLV9SuiXvAf7QI1LIHybg"
+                            }
+                        },
+                        "uid": "31653435326366626465313763623635"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e023d83d846aa9f817352b12694",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048513d83d846aa9f817352b12694",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2733d83d846aa9f817352b12694",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "ABSUЯD",
+                                    "uri": "spotify:album:0dMoESugZcGjrttbxxxqdV"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 203138
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "ABSUЯD",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "9033829",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:7q4Miqc5itaPtd20K2gH4N"
+                            }
+                        },
+                        "uid": "66653330613361393937323530306235"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02d8a68fd3e16f7ff6932b47d9",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851d8a68fd3e16f7ff6932b47d9",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273d8a68fd3e16f7ff6932b47d9",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "The Spaghetti Incident?",
+                                    "uri": "spotify:album:4ieR19hRkKeE81CalJPQNu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 158360
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "New Rose",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "15264994",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:3kSsbFBOdaflBNNJkiG1ja"
+                            }
+                        },
+                        "uid": "30613839393737386132366535393937"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02273eef956e3293dd0c1b89b1",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851273eef956e3293dd0c1b89b1",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273273eef956e3293dd0c1b89b1",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Use Your Illusion (Super Deluxe)",
+                                    "uri": "spotify:album:1nnC02B9bhYh6IVFOoij0k"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 3,
+                                "trackDuration": {
+                                    "totalMilliseconds": 529506
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Voodoo Child (Slight Return) / Civil War - Live In New York, Ritz Theatre - May 16, 1991",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "2605825",
+                                "trackNumber": 8,
+                                "uri": "spotify:track:5pxwBcIYQRr01zL7Ya4SX7"
+                            }
+                        },
+                        "uid": "66363363643838616166616135396434"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02275b7ffe49eb84ab13a71980",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851275b7ffe49eb84ab13a71980",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273275b7ffe49eb84ab13a71980",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Appetite For Destruction (Super Deluxe Edition)",
+                                    "uri": "spotify:album:3edmYBHOTxfz8NxJE1QmTP"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 2,
+                                "trackDuration": {
+                                    "totalMilliseconds": 182586
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Nice Boys - Live",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "9195151",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:6SUUNSpCeHB0jKEGfmOSYn"
+                            }
+                        },
+                        "uid": "66393639343561353563316231303435"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02273eef956e3293dd0c1b89b1",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851273eef956e3293dd0c1b89b1",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273273eef956e3293dd0c1b89b1",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Use Your Illusion (Super Deluxe)",
+                                    "uri": "spotify:album:1nnC02B9bhYh6IVFOoij0k"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 4,
+                                "trackDuration": {
+                                    "totalMilliseconds": 202000
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Wild Horses - Live In Las Vegas, Thomas & Mack Center - January 25, 1992",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "2263708",
+                                "trackNumber": 11,
+                                "uri": "spotify:track:6duHxAfKPYnrvkjVBcBklR"
+                            }
+                        },
+                        "uid": "65643234616663333133653564316163"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759498760070"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064046ca6983d89d00f83d96d1458df0cce5"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Guns N' Roses"
+                                                },
+                                                "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02273eef956e3293dd0c1b89b1",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851273eef956e3293dd0c1b89b1",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273273eef956e3293dd0c1b89b1",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Use Your Illusion (Super Deluxe)",
+                                    "uri": "spotify:album:1nnC02B9bhYh6IVFOoij0k"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Guns N' Roses"
+                                            },
+                                            "uri": "spotify:artist:3qm84nBOXUEQ2vnTfUTTFC"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 4,
+                                "trackDuration": {
+                                    "totalMilliseconds": 108800
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Sail Away Sweet Sister - Live In Las Vegas, Thomas & Mack Center - January 25, 1992",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "2013359",
+                                "trackNumber": 20,
+                                "uri": "spotify:track:0SssEf0vqdVTYLPjgC187j"
+                            }
+                        },
+                        "uid": "39333137386361343235656335363130"
                     }
                 ],
                 "pagingInfo": {
                     "limit": 50,
                     "offset": 25
                 },
-                "totalCount": 50
+                "totalCount": 47
             }
         }
     }
