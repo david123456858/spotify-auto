@@ -130,43 +130,53 @@ class SpotifyPlaylistCreator:
         return text.strip()
     
     def create_playlist_title(self, song_name, artist_name, lyrics_preview):
-        """
-        Crea un título optimizado para la playlist
-        Formato: "Canción - Artista + preview de letra"
-        Máximo 100 caracteres
-        
-        Si no hay letra disponible, usa solo: "Canción - Artista"
-        """
-        # Limpiar nombres de caracteres problemáticos
+        import re  # ← 1️⃣ AGREGAMOS ESTO AL INICIO
+    
+        # Limpiar nombres
         song_name = self.clean_text_for_spotify(song_name)
         artist_name = self.clean_text_for_spotify(artist_name)
-        
+    
         base_title = f"{song_name} {artist_name}"
-        
-        # Si el título base ya es muy largo, cortarlo
+    
         if len(base_title) >= 100:
             return base_title[:97] + "..."
-        
-        # ⚠️ Si no hay letra, devolver solo el título base
+    
         if not lyrics_preview:
             return base_title
-        
-        # Limpiar letra también
+    
+        # ============================================
+        # 2️⃣ AQUÍ VA EL BLOQUE DE LIMPIEZA (REEMPLAZA TODO LO VIEJO)
+        # ============================================
+    
+        # Paso 1: Convertir saltos de línea en espacios
+        lyrics_preview = lyrics_preview.replace('\n', ' ')
+        lyrics_preview = lyrics_preview.replace('\r', ' ')
+    
+        # Paso 2: Limpiar espacios múltiples
+        lyrics_preview = re.sub(r'\s+', ' ', lyrics_preview)
+    
+        # Paso 3: Limpiar caracteres especiales
         lyrics_preview = self.clean_text_for_spotify(lyrics_preview)
-        
-        # Calcular espacio disponible para la letra
-        available_space = 100 - len(base_title) - 3  # -3 para " | "
-        
+    
+        # ============================================
+        # FIN DEL BLOQUE DE LIMPIEZA
+        # ============================================
+    
+        # Calcular espacio disponible
+        available_space = 100 - len(base_title) - 3
+    
         if available_space > 10:
-            # Tomar las primeras líneas de la letra
-            first_line = lyrics_preview.split('\n')[0].strip()
-            
-            if first_line and len(first_line) <= available_space:
-                return f"{base_title}  {first_line}"
-            elif first_line:
-                # Cortar y agregar "..."
-                return f"{base_title}  {first_line[:available_space-3]}..."
+            # 3️⃣ AQUÍ CAMBIA LA LÓGICA (YA NO USAMOS split)
         
+            if len(lyrics_preview) <= available_space:
+                return f"{base_title}  {lyrics_preview}"
+            else:
+                truncated = lyrics_preview[:available_space-3]
+                last_space = truncated.rfind(' ')
+                if last_space > 10:
+                    truncated = truncated[:last_space]
+                return f"{base_title}  {truncated}..."
+    
         return base_title
     
     def create_playlist_description(self, lyrics):
@@ -179,14 +189,23 @@ class SpotifyPlaylistCreator:
             return "Letra no disponible."
 
         import re
-        # Limpiar letra
-        lyrics = self.clean_text_for_spotify(lyrics)
-
-        # 👉 Corregir problema de palabras pegadas (salto de línea → espacio)
-        lyrics = re.sub(r'\n+', ' ', lyrics)  # reemplazar múltiples \n por un espacio
-        lyrics = re.sub(r'\s+', ' ', lyrics)  # limpiar espacios múltiples
         
-        print(lyrics)
+        # 🔧 ORDEN CORRECTO: Primero reemplazar saltos de línea, LUEGO limpiar con clean_text
+        # Paso 1: Convertir saltos de línea en espacios (esto asegura separación)
+        lyrics = lyrics.replace('\n', ' ')
+        lyrics = lyrics.replace('\r', ' ')
+        
+        # Paso 2: Limpiar espacios múltiples
+        lyrics = re.sub(r'\s+', ' ', lyrics)
+        
+        # Paso 3: Ahora sí, aplicar clean_text_for_spotify (que remueve caracteres especiales)
+        lyrics = self.clean_text_for_spotify(lyrics)
+        
+        # Debug temporal (puedes eliminar después de verificar)
+        print(f"\n   🔍 DEBUG LETRA LIMPIA:")
+        print(f"      Original length: {len(lyrics)}")
+        print(f"      Preview: {lyrics[:150]}...")
+        
         # Limitar a 300 caracteres
         if len(lyrics) <= 300:
             return lyrics.strip()
@@ -323,8 +342,8 @@ def create_playlists_circular_distribution():
     
     # Canciones promocionales (fijas para todas las playlists)
     promo_tracks = [
-        "spotify:track:0zWYg2LyzO3VjH2qoV6igp",  # Promo 1
-        "spotify:track:2O1YSaONzFP8V7pXAVdpWS"   # Promo 2
+        "spotify:track:4pem1s55isBqZ6HDbuFRG9",  # Promo 1 Open Hearts
+        "spotify:track:0zWYg2LyzO3VjH2qoV6igp"   # Promo 2 Given up on Me
     ]
     
     print("\n" + "="*70)
@@ -369,10 +388,10 @@ def create_playlists_circular_distribution():
     # 🔧 PRUEBA: Cambiar all_songs por all_songs[:1] para probar solo 1 canción
     test_songs = all_songs[:1]  # ← CAMBIAR AQUÍ: [:1] = 1 canción, [:10] = 10 canciones, o quitar para todas
     
-    print(f"⚠️  MODO PRUEBA: Procesando {len(test_songs)} de {len(all_songs)} canciones\n")
+    # print(f"⚠️  MODO PRUEBA: Procesando {len(test_songs)} de {len(all_songs)} canciones\n")
     
     # Iterar sobre las canciones (de prueba o todas)
-    for song_idx, song in enumerate(test_songs):
+    for song_idx, song in enumerate(all_songs):
         # Calcular a qué usuario le toca (distribución circular)
         user_idx = song_idx % len(users)  # Módulo para hacer circular
         current_user = users[user_idx]
@@ -392,10 +411,6 @@ def create_playlists_circular_distribution():
             # ===== OBTENER LETRA =====
             # 🔧 MODO DEBUG: Comentar esta línea para probar sin letras
             lyrics = creator.get_lyrics(song['song'], song['artist'])
-            print(lyrics)
-            
-            clean = creator.create_playlist_description(lyrics)
-            print(clean)
             # 🔧 MODO DEBUG: Descomentar esto para probar SIN buscar letras
             # lyrics = None
             # print(f"      ⚠️ MODO DEBUG: Saltando búsqueda de letra")
