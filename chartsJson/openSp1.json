@@ -1,0 +1,2499 @@
+{
+    "data": {
+        "playlistV2": {
+            "__typename": "Playlist",
+            "content": {
+                "__typename": "PlaylistItemsPage",
+                "items": [
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0222ad6386462b75d7371aefae",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485122ad6386462b75d7371aefae",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27322ad6386462b75d7371aefae",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "There’d Better Be A Mirrorball",
+                                    "uri": "spotify:album:0ZUmodAwUq8cQJFvyibKwT"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 265798
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "There’d Better Be A Mirrorball",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "119384734",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:0yowbJnnbTLpr99f9l1uba"
+                            }
+                        },
+                        "uid": "31383737363665663331323832313063"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e028187cf1b141898d7c7d04d1a",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048518187cf1b141898d7c7d04d1a",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2738187cf1b141898d7c7d04d1a",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Body Paint",
+                                    "uri": "spotify:album:0AtlEQ56o0yKOd9qM1EBp0"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 290584
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Body Paint",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "100296395",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:11jRCxY01k9jvCdUru0EeP"
+                            }
+                        },
+                        "uid": "34623630373863373730326365313031"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e023337c088fe6b1540ab13fe11",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048513337c088fe6b1540ab13fe11",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2733337c088fe6b1540ab13fe11",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "I Ain't Quite Where I Think I Am",
+                                    "uri": "spotify:album:1iXbmA1guiEgh69kIcr0On"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 191173
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "I Ain’t Quite Where I Think I Am",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "52390793",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:7DPhusadsTZ2VrXOGcuX2y"
+                            }
+                        },
+                        "uid": "63363837346265316337393631653133"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Favourite Worst Nightmare",
+                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 253586
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "505",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "2455267116",
+                                "trackNumber": 12,
+                                "uri": "spotify:track:0BxE4FqsDD1Ot4YuBXwAPp"
+                            }
+                        },
+                        "uid": "39373864626465636630333330393862"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "AM",
+                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 272394
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Do I Wanna Know?",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "2730053076",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:5FVd6KXrgO9B3JPmC8OPst"
+                            }
+                        },
+                        "uid": "61643930313261333132646265656335"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "AM",
+                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 161123
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Why'd You Only Call Me When You're High?",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "2157075672",
+                                "trackNumber": 9,
+                                "uri": "spotify:track:086myS9r57YsLbJpU0TgK9"
+                            }
+                        },
+                        "uid": "62353539366239633435316562343339"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Favourite Worst Nightmare",
+                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 183893
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Fluorescent Adolescent",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "1081437503",
+                                "trackNumber": 5,
+                                "uri": "spotify:track:2x8evxqUlF0eRabbW2JBJd"
+                            }
+                        },
+                        "uid": "61656435613630386236323739653561"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02f65d720a5d70dbb93e96d528",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851f65d720a5d70dbb93e96d528",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Humbug",
+                                    "uri": "spotify:album:5IEoiwkThhRmSMBANhpxl2"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 223066
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Secret Door",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "116508837",
+                                "trackNumber": 4,
+                                "uri": "spotify:track:4dtP86vkhzwNXCFpCtizce"
+                            }
+                        },
+                        "uid": "35363035333263363332363663663734"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e026b3fa88bdd4af566fbbf2bbf",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048516b3fa88bdd4af566fbbf2bbf",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Whatever People Say I Am, That's What I'm Not",
+                                    "uri": "spotify:album:50Zz8CkIhATKUlQMbHO3k1"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 175440
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Mardy Bum",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "481718886",
+                                "trackNumber": 9,
+                                "uri": "spotify:track:2fyIS6GXMgUcSv4oejx63f"
+                            }
+                        },
+                        "uid": "64663034643435396233333566633936"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "AM",
+                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 183956
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "I Wanna Be Yours",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "3327897277",
+                                "trackNumber": 12,
+                                "uri": "spotify:track:5XeFesFbtLpXzIVDNQP22n"
+                            }
+                        },
+                        "uid": "64356266613131396631373764326438"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0217997aeea63f3135e3c07e09",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485117997aeea63f3135e3c07e09",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27317997aeea63f3135e3c07e09",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Why'd You Only Call Me When You're High?",
+                                    "uri": "spotify:album:0SlR6pLgIqWFUkuUfbNbm0"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 191040
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Stop The World I Wanna Get Off With You",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "194435758",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:2QUlMbvD9bL8wHqfsoqoet"
+                            }
+                        },
+                        "uid": "38626133666638613531343066663931"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02f65d720a5d70dbb93e96d528",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851f65d720a5d70dbb93e96d528",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Humbug",
+                                    "uri": "spotify:album:5IEoiwkThhRmSMBANhpxl2"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 224826
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Crying Lightning",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "257291699",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:6wVWJl64yoTzU27EI8ep20"
+                            }
+                        },
+                        "uid": "66656465396233353738316132363136"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e026b3fa88bdd4af566fbbf2bbf",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048516b3fa88bdd4af566fbbf2bbf",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Whatever People Say I Am, That's What I'm Not",
+                                    "uri": "spotify:album:50Zz8CkIhATKUlQMbHO3k1"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 173680
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "I Bet You Look Good On The Dancefloor",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "527373710",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:3DQVgcqaP3iSMbaKsd57l5"
+                            }
+                        },
+                        "uid": "65326536386638633032373566323464"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "AM",
+                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 243131
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "No. 1 Party Anthem",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "736078111",
+                                "trackNumber": 6,
+                                "uri": "spotify:track:5TTGoX70AFrTvuEtqHK37S"
+                            }
+                        },
+                        "uid": "63333536346365393665323961333861"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Favourite Worst Nightmare",
+                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 165000
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Teddy Picker",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "292730288",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:5kxVyCgEUND7E2QKG7JmoF"
+                            }
+                        },
+                        "uid": "30633564303136633532376435656463"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02f65d720a5d70dbb93e96d528",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851f65d720a5d70dbb93e96d528",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273f65d720a5d70dbb93e96d528",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Humbug",
+                                    "uri": "spotify:album:5IEoiwkThhRmSMBANhpxl2"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 197973
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Cornerstone",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "188037153",
+                                "trackNumber": 7,
+                                "uri": "spotify:track:5bsnLiT00hG37qd8p2jdVl"
+                            }
+                        },
+                        "uid": "62373761646333643634623232633539"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e026b3fa88bdd4af566fbbf2bbf",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048516b3fa88bdd4af566fbbf2bbf",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Whatever People Say I Am, That's What I'm Not",
+                                    "uri": "spotify:album:50Zz8CkIhATKUlQMbHO3k1"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 202133
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "When The Sun Goes Down",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "512023622",
+                                "trackNumber": 11,
+                                "uri": "spotify:track:2zzLRQ78kKfPTx8FJQCdC2"
+                            }
+                        },
+                        "uid": "62653362383737316638313036633333"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "AM",
+                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 201726
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "R U Mine?",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "1277575883",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:2AT8iROs4FQueDv2c8q2KE"
+                            }
+                        },
+                        "uid": "31636535633439356561353162653531"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02fc5f23d71de7ad824565f94c",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851fc5f23d71de7ad824565f94c",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273fc5f23d71de7ad824565f94c",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Leave Before The Lights Come On",
+                                    "uri": "spotify:album:219r3vm32Uzj5Ef7lu9aKw"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 152613
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Baby I'm Yours",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "230736790",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:0SzvmWfOhoxZVGrmvb56YL"
+                            }
+                        },
+                        "uid": "61636634396530336439396333636537"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Favourite Worst Nightmare",
+                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 172866
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Brianstorm",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "288641190",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:7f9I5WdyXm5q1XqnSYgQZb"
+                            }
+                        },
+                        "uid": "36393137336333366131626430366132"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e026b3fa88bdd4af566fbbf2bbf",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048516b3fa88bdd4af566fbbf2bbf",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Whatever People Say I Am, That's What I'm Not",
+                                    "uri": "spotify:album:50Zz8CkIhATKUlQMbHO3k1"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 193426
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "From The Ritz To The Rubble",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "199098965",
+                                "trackNumber": 12,
+                                "uri": "spotify:track:2vQQfWTanvD99OeHLAoyhW"
+                            }
+                        },
+                        "uid": "66626535663131373532366361353464"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "AM",
+                                    "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 193030
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Snap Out Of It",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "744006479",
+                                "trackNumber": 10,
+                                "uri": "spotify:track:0NdTUS4UiNYCNn5FgVqKQY"
+                            }
+                        },
+                        "uid": "61396361643364396366663736333330"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e024fe0b5be5a42d53d5bc645f7",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048514fe0b5be5a42d53d5bc645f7",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2734fe0b5be5a42d53d5bc645f7",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Who The F*** Are Arctic Monkeys?",
+                                    "uri": "spotify:album:3tEGBDGnejHf4mx1YSqKnb"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 197320
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "No Buses",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "105459373",
+                                "trackNumber": 4,
+                                "uri": "spotify:track:6mOiT65GFmXgBAviM3lrsE"
+                            }
+                        },
+                        "uid": "35316135383436396261633562383439"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02b1f8da74f225fa1225cdface",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273b1f8da74f225fa1225cdface",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Favourite Worst Nightmare",
+                                    "uri": "spotify:album:1XkGORuUX2QGOEIL4EbJKm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 209253
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Do Me a Favour",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "194509285",
+                                "trackNumber": 7,
+                                "uri": "spotify:track:2BqfIlpahcebJPeu1IUTEo"
+                            }
+                        },
+                        "uid": "61323062613433613938626466393932"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409433452"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~064040bbbe2b405919bcb22968a3e7085981"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "Arctic Monkeys"
+                                                },
+                                                "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e026b3fa88bdd4af566fbbf2bbf",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048516b3fa88bdd4af566fbbf2bbf",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2736b3fa88bdd4af566fbbf2bbf",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Whatever People Say I Am, That's What I'm Not",
+                                    "uri": "spotify:album:50Zz8CkIhATKUlQMbHO3k1"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "Arctic Monkeys"
+                                            },
+                                            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "EXPLICIT"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 177946
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Fake Tales Of San Francisco",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "133035297",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:7BuzJmV2h6eBbSDdRaDY7C"
+                            }
+                        },
+                        "uid": "34386163646463626664326333653666"
+                    }
+                ],
+                "pagingInfo": {
+                    "limit": 25,
+                    "offset": 0
+                },
+                "totalCount": 50
+            },
+            "attributes": [
+                {
+                    "key": "request_id",
+                    "value": "ssp~06403eaf840f00de64d2ee572f1220c57789"
+                },
+                {
+                    "key": "artistGid",
+                    "value": "ff1a721cd4154a46befc6dc08976b16d"
+                },
+                {
+                    "key": "correlation-id",
+                    "value": "ssp~06403eaf840f00de64d2ee572f1220c57789"
+                }
+            ],
+            "basePermission": "VIEWER",
+            "currentUserCapabilities": {
+                "canAdministratePermissions": false,
+                "canCancelMembership": false,
+                "canEditItems": false,
+                "canView": true
+            },
+            "description": "This Is Arctic Monkeys. Los temas esenciales, todos en una lista.",
+            "followers": 1742565,
+            "following": false,
+            "format": "artistsets",
+            "images": {
+                "items": [
+                    {
+                        "sources": [
+                            {
+                                "height": null,
+                                "url": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4BaAkp-default.jpg",
+                                "width": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            "members": {
+                "items": [
+                    {
+                        "isOwner": true,
+                        "permissionLevel": "CONTRIBUTOR",
+                        "user": {
+                            "data": {
+                                "__typename": "User",
+                                "avatar": {
+                                    "sources": [
+                                        {
+                                            "height": 64,
+                                            "url": "https://i.scdn.co/image/ab67757000003b8255c25988a6ac314394d3fbf5",
+                                            "width": 64
+                                        },
+                                        {
+                                            "height": 300,
+                                            "url": "https://i.scdn.co/image/ab6775700000ee8555c25988a6ac314394d3fbf5",
+                                            "width": 300
+                                        }
+                                    ]
+                                },
+                                "name": "Spotify",
+                                "uri": "spotify:user:spotify",
+                                "username": "spotify"
+                            }
+                        }
+                    }
+                ],
+                "totalCount": 1
+            },
+            "name": "This Is Arctic Monkeys",
+            "ownerV2": {
+                "data": {
+                    "__typename": "User",
+                    "avatar": {
+                        "sources": [
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67757000003b8255c25988a6ac314394d3fbf5",
+                                "width": 64
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab6775700000ee8555c25988a6ac314394d3fbf5",
+                                "width": 300
+                            }
+                        ]
+                    },
+                    "name": "Spotify",
+                    "uri": "spotify:user:spotify",
+                    "username": "spotify"
+                }
+            },
+            "revisionId": "aNxvAAAAAABosIqdl/NcVpZ5Nexcdxod",
+            "sharingInfo": {
+                "shareId": "_StSgS-0RrenYU_YKKu--w",
+                "shareUrl": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4BaAkp?si=_StSgS-0RrenYU_YKKu--w"
+            },
+            "uri": "spotify:playlist:37i9dQZF1DZ06evO4BaAkp",
+            "visualIdentity": {
+                "squareCoverImage": {
+                    "__typename": "VisualIdentityImage",
+                    "extractedColorSet": {
+                        "encoreBaseSetTextColor": {
+                            "alpha": 255,
+                            "blue": 135,
+                            "green": 163,
+                            "red": 255
+                        },
+                        "highContrast": {
+                            "backgroundBase": {
+                                "alpha": 255,
+                                "blue": 0,
+                                "green": 38,
+                                "red": 151
+                            },
+                            "backgroundTintedBase": {
+                                "alpha": 255,
+                                "blue": 0,
+                                "green": 0,
+                                "red": 97
+                            },
+                            "textBase": {
+                                "alpha": 255,
+                                "blue": 255,
+                                "green": 255,
+                                "red": 255
+                            },
+                            "textBrightAccent": {
+                                "alpha": 255,
+                                "blue": 255,
+                                "green": 255,
+                                "red": 255
+                            },
+                            "textSubdued": {
+                                "alpha": 255,
+                                "blue": 169,
+                                "green": 190,
+                                "red": 255
+                            }
+                        },
+                        "higherContrast": {
+                            "backgroundBase": {
+                                "alpha": 255,
+                                "blue": 0,
+                                "green": 0,
+                                "red": 101
+                            },
+                            "backgroundTintedBase": {
+                                "alpha": 255,
+                                "blue": 41,
+                                "green": 52,
+                                "red": 147
+                            },
+                            "textBase": {
+                                "alpha": 255,
+                                "blue": 255,
+                                "green": 255,
+                                "red": 255
+                            },
+                            "textBrightAccent": {
+                                "alpha": 255,
+                                "blue": 96,
+                                "green": 215,
+                                "red": 30
+                            },
+                            "textSubdued": {
+                                "alpha": 255,
+                                "blue": 169,
+                                "green": 190,
+                                "red": 255
+                            }
+                        },
+                        "minContrast": {
+                            "backgroundBase": {
+                                "alpha": 255,
+                                "blue": 85,
+                                "green": 117,
+                                "red": 237
+                            },
+                            "backgroundTintedBase": {
+                                "alpha": 255,
+                                "blue": 60,
+                                "green": 91,
+                                "red": 208
+                            },
+                            "textBase": {
+                                "alpha": 255,
+                                "blue": 255,
+                                "green": 255,
+                                "red": 255
+                            },
+                            "textBrightAccent": {
+                                "alpha": 255,
+                                "blue": 255,
+                                "green": 255,
+                                "red": 255
+                            },
+                            "textSubdued": {
+                                "alpha": 255,
+                                "blue": 255,
+                                "green": 255,
+                                "red": 255
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

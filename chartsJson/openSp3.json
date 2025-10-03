@@ -1,0 +1,2292 @@
+{
+    "data": {
+        "playlistV2": {
+            "__typename": "Playlist",
+            "content": {
+                "__typename": "PlaylistItemsPage",
+                "items": [
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02dd72be577ed91add8f268f5e",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851dd72be577ed91add8f268f5e",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273dd72be577ed91add8f268f5e",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Ballbreaker",
+                                    "uri": "spotify:album:1zXYNAA57WJ33GgZJHchhX"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 271000
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Hard as a Rock",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "74448327",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:1gij27s31tFKcTHa8f1u4g"
+                            }
+                        },
+                        "uid": "65386361346435626536326134636538"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e023bf8d1987a42dd781a8039de",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048513bf8d1987a42dd781a8039de",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2733bf8d1987a42dd781a8039de",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Powerage",
+                                    "uri": "spotify:album:4iMaHsHqTg3rwOtRa5wEbm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 285040
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Sin City",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "43832022",
+                                "trackNumber": 5,
+                                "uri": "spotify:track:3UQQ7g6J8fiMB7oldQzBoq"
+                            }
+                        },
+                        "uid": "31346433333733303939333538363934"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0251c02a77d09dfcd53c8676d0",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485151c02a77d09dfcd53c8676d0",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27351c02a77d09dfcd53c8676d0",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Highway to Hell",
+                                    "uri": "spotify:album:10v912xgTZbjAtYfyKWJCS"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 202866
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Shot Down in Flames",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "49427763",
+                                "trackNumber": 6,
+                                "uri": "spotify:track:6pivm7pNF4GyBkHNGseHCS"
+                            }
+                        },
+                        "uid": "62303066376662376264616234343338"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02107d182a8d39586f8f3f23a0",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851107d182a8d39586f8f3f23a0",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273107d182a8d39586f8f3f23a0",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Black Ice",
+                                    "uri": "spotify:album:7qVfz4UGONwEd5nQjj0ESN"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 189786
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "War Machine",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "79027968",
+                                "trackNumber": 5,
+                                "uri": "spotify:track:5YnNWHKCJaJKwbagXDb5Uf"
+                            }
+                        },
+                        "uid": "36316564343364653666643837386539"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0204db0e3bcd166c1d6cfd81f9",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485104db0e3bcd166c1d6cfd81f9",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27304db0e3bcd166c1d6cfd81f9",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "POWER UP",
+                                    "uri": "spotify:album:3bTNxJYk2bwdWBMtrjBxb0"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 210360
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Demon Fire",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "50320828",
+                                "trackNumber": 7,
+                                "uri": "spotify:track:6jtUOVRO4p09Z7E35ERRL7"
+                            }
+                        },
+                        "uid": "30653635626635346630306536333535"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02a254f3777d9d262b432ebc1a",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851a254f3777d9d262b432ebc1a",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273a254f3777d9d262b432ebc1a",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Backtracks",
+                                    "uri": "spotify:album:0I7FkYrckzJtK1ND8vzqoO"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 259413
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Big Gun",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "58284564",
+                                "trackNumber": 17,
+                                "uri": "spotify:track:7zjzu90Q4mtNNaE9Ol9Zbv"
+                            }
+                        },
+                        "uid": "33343833663366316163326463356332"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02286a0837ff3424065a735e0a",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851286a0837ff3424065a735e0a",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273286a0837ff3424065a735e0a",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "High Voltage",
+                                    "uri": "spotify:album:19AUoKWRAaQYrggVvdQnqq"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 254200
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "High Voltage",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "66448030",
+                                "trackNumber": 9,
+                                "uri": "spotify:track:5pLgH1bCkBV3bbmvm0qvom"
+                            }
+                        },
+                        "uid": "65343966376363326632653639623065"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0251c02a77d09dfcd53c8676d0",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485151c02a77d09dfcd53c8676d0",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27351c02a77d09dfcd53c8676d0",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Highway to Hell",
+                                    "uri": "spotify:album:10v912xgTZbjAtYfyKWJCS"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 310000
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Walk All Over You",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "41644473",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:5xquYn2sr3uEcyuKU9BmCJ"
+                            }
+                        },
+                        "uid": "64303566656533653837313530363037"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e028399047ff71200928f5b6508",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048518399047ff71200928f5b6508",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2738399047ff71200928f5b6508",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "The Razors Edge",
+                                    "uri": "spotify:album:4vu7F6h90Br1ZtYYaqfITy"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 173746
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Fire Your Guns",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "57101300",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:0cLvKgKkqlaJ9UajbitH4l"
+                            }
+                        },
+                        "uid": "38343761653966313536383638313838"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0205a19220d37bc871db939b64",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485105a19220d37bc871db939b64",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27305a19220d37bc871db939b64",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Let There Be Rock",
+                                    "uri": "spotify:album:3JwFNl80WWeXPiKEjIFbqa"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 254120
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Hell Ain't a Bad Place to Be",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "36863343",
+                                "trackNumber": 7,
+                                "uri": "spotify:track:79KUOd1p6yNjh2Jkr9IQHk"
+                            }
+                        },
+                        "uid": "64343738333163646561626632383266"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0268b03027356fb05501948f62",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485168b03027356fb05501948f62",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27368b03027356fb05501948f62",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Dirty Deeds Done Dirt Cheap",
+                                    "uri": "spotify:album:76mvVgXOde87B9aOzLXCOI"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 158773
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Big Balls",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "58215315",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:2KmSnPWWCIsEomVsKnbE1a"
+                            }
+                        },
+                        "uid": "37666135663635396133646265356637"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02286a0837ff3424065a735e0a",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851286a0837ff3424065a735e0a",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273286a0837ff3424065a735e0a",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "High Voltage",
+                                    "uri": "spotify:album:19AUoKWRAaQYrggVvdQnqq"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 251373
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Can I Sit Next to You Girl",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "16686019",
+                                "trackNumber": 6,
+                                "uri": "spotify:track:75uv44LGpyL0DhyLli3aXh"
+                            }
+                        },
+                        "uid": "37633166663231626261316263353763"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02107d182a8d39586f8f3f23a0",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851107d182a8d39586f8f3f23a0",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273107d182a8d39586f8f3f23a0",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Black Ice",
+                                    "uri": "spotify:album:7qVfz4UGONwEd5nQjj0ESN"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 205106
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Black Ice",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "32992787",
+                                "trackNumber": 15,
+                                "uri": "spotify:track:3Axmw41lmMoXih3NJYzbXb"
+                            }
+                        },
+                        "uid": "30356561383062323232303635333038"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0204db0e3bcd166c1d6cfd81f9",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485104db0e3bcd166c1d6cfd81f9",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27304db0e3bcd166c1d6cfd81f9",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "POWER UP",
+                                    "uri": "spotify:album:3bTNxJYk2bwdWBMtrjBxb0"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 190333
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Kick You When You're Down",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "23626322",
+                                "trackNumber": 5,
+                                "uri": "spotify:track:0Kq6RzOqkHxnfiA9OGqReU"
+                            }
+                        },
+                        "uid": "62646330373137666563383665633337"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0205a19220d37bc871db939b64",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485105a19220d37bc871db939b64",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27305a19220d37bc871db939b64",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Let There Be Rock",
+                                    "uri": "spotify:album:3JwFNl80WWeXPiKEjIFbqa"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 214853
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Dog Eat Dog",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "29123373",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:0L0x35hQnmCLtHeSGQlEZj"
+                            }
+                        },
+                        "uid": "32336666646563643761366537636264"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02286a0837ff3424065a735e0a",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851286a0837ff3424065a735e0a",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273286a0837ff3424065a735e0a",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "High Voltage",
+                                    "uri": "spotify:album:19AUoKWRAaQYrggVvdQnqq"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 348600
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Live Wire",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "35517798",
+                                "trackNumber": 4,
+                                "uri": "spotify:track:6FWoYwZa13llS7nj0SG65F"
+                            }
+                        },
+                        "uid": "35323936643938613230373365363436"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e027d29629468b9a39131b6d718",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048517d29629468b9a39131b6d718",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2737d29629468b9a39131b6d718",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Blow Up Your Video",
+                                    "uri": "spotify:album:5jfgUmvXCar7Qf5lidVkqI"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 230400
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Heatseeker",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "40983802",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:0h3A3hdDq762DzIOKUoF21"
+                            }
+                        },
+                        "uid": "37666232393733326239363535316233"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0204db0e3bcd166c1d6cfd81f9",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485104db0e3bcd166c1d6cfd81f9",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27304db0e3bcd166c1d6cfd81f9",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "POWER UP",
+                                    "uri": "spotify:album:3bTNxJYk2bwdWBMtrjBxb0"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 174400
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Wild Reputation",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "12827377",
+                                "trackNumber": 8,
+                                "uri": "spotify:track:1ZyQEn0iceHj0Lbt6I6Op3"
+                            }
+                        },
+                        "uid": "36633765613765343436616165303065"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0268b03027356fb05501948f62",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485168b03027356fb05501948f62",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27368b03027356fb05501948f62",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Dirty Deeds Done Dirt Cheap",
+                                    "uri": "spotify:album:76mvVgXOde87B9aOzLXCOI"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 350266
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Ride On",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "38512663",
+                                "trackNumber": 8,
+                                "uri": "spotify:track:594ONMYoHlJnqHPEx98t08"
+                            }
+                        },
+                        "uid": "66313666376634326362626436333636"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02286a0837ff3424065a735e0a",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851286a0837ff3424065a735e0a",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273286a0837ff3424065a735e0a",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "High Voltage",
+                                    "uri": "spotify:album:19AUoKWRAaQYrggVvdQnqq"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 352040
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "The Jack",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "38437132",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:3k1WwLG1OXCm6iQ13VrJEL"
+                            }
+                        },
+                        "uid": "66393736653939363863653865646431"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e023bf8d1987a42dd781a8039de",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048513bf8d1987a42dd781a8039de",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2733bf8d1987a42dd781a8039de",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Powerage",
+                                    "uri": "spotify:album:4iMaHsHqTg3rwOtRa5wEbm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 217640
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Rock 'N' Roll Damnation",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "36205880",
+                                "trackNumber": 1,
+                                "uri": "spotify:track:2308VPPaMh7Q3AX1Zap99A"
+                            }
+                        },
+                        "uid": "30336438336462633439613537326434"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e0204db0e3bcd166c1d6cfd81f9",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d0000485104db0e3bcd166c1d6cfd81f9",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b27304db0e3bcd166c1d6cfd81f9",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "POWER UP",
+                                    "uri": "spotify:album:3bTNxJYk2bwdWBMtrjBxb0"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 222253
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Witch's Spell",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "29477754",
+                                "trackNumber": 6,
+                                "uri": "spotify:track:06hy0gi5aLXcWRjnj9fgoh"
+                            }
+                        },
+                        "uid": "30643531386231633535636138303037"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e02f5ea32b7c7b4ee3a4583d5df",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d00004851f5ea32b7c7b4ee3a4583d5df",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b273f5ea32b7c7b4ee3a4583d5df",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Rock or Bust",
+                                    "uri": "spotify:album:6OwvO40ahugJE5PH4TjqTg"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 1
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 167133
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Play Ball",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "40347762",
+                                "trackNumber": 2,
+                                "uri": "spotify:track:3fpzBeEHvuXKOl7QeVe1iz"
+                            }
+                        },
+                        "uid": "64393766653761643334656463356133"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e020d025344564dfda2e57f9ffd",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048510d025344564dfda2e57f9ffd",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2730d025344564dfda2e57f9ffd",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "For Those About to Rock (We Salute You)",
+                                    "uri": "spotify:album:7DUvURQ0wfA1kgG8j99frR"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 234026
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Let's Get It Up",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "20175210",
+                                "trackNumber": 3,
+                                "uri": "spotify:track:1EJIEPzahlUiev5IQ1HnuL"
+                            }
+                        },
+                        "uid": "63653562376561373335393134633264"
+                    },
+                    {
+                        "addedAt": {
+                            "isoString": "1970-01-01T00:00:00Z"
+                        },
+                        "addedBy": null,
+                        "attributes": [
+                            {
+                                "key": "added_at",
+                                "value": "1759409418848"
+                            },
+                            {
+                                "key": "decision_id",
+                                "value": "ssp~0640410f60bc6b33fffc29d063fbf3acc6c1"
+                            }
+                        ],
+                        "itemV2": {
+                            "__typename": "TrackResponseWrapper",
+                            "data": {
+                                "__typename": "Track",
+                                "albumOfTrack": {
+                                    "artists": {
+                                        "items": [
+                                            {
+                                                "profile": {
+                                                    "name": "AC/DC"
+                                                },
+                                                "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                            }
+                                        ]
+                                    },
+                                    "coverArt": {
+                                        "sources": [
+                                            {
+                                                "height": 300,
+                                                "url": "https://i.scdn.co/image/ab67616d00001e023bf8d1987a42dd781a8039de",
+                                                "width": 300
+                                            },
+                                            {
+                                                "height": 64,
+                                                "url": "https://i.scdn.co/image/ab67616d000048513bf8d1987a42dd781a8039de",
+                                                "width": 64
+                                            },
+                                            {
+                                                "height": 640,
+                                                "url": "https://i.scdn.co/image/ab67616d0000b2733bf8d1987a42dd781a8039de",
+                                                "width": 640
+                                            }
+                                        ]
+                                    },
+                                    "name": "Powerage",
+                                    "uri": "spotify:album:4iMaHsHqTg3rwOtRa5wEbm"
+                                },
+                                "artists": {
+                                    "items": [
+                                        {
+                                            "profile": {
+                                                "name": "AC/DC"
+                                            },
+                                            "uri": "spotify:artist:711MCceyCBcFnzjGY4Q7Un"
+                                        }
+                                    ]
+                                },
+                                "associationsV3": {
+                                    "audioAssociations": {
+                                        "__typename": "TrackAudioAssociationPage",
+                                        "items": []
+                                    },
+                                    "videoAssociations": {
+                                        "totalCount": 0
+                                    }
+                                },
+                                "contentRating": {
+                                    "label": "NONE"
+                                },
+                                "discNumber": 1,
+                                "trackDuration": {
+                                    "totalMilliseconds": 311880
+                                },
+                                "mediaType": "AUDIO",
+                                "name": "Riff Raff",
+                                "playability": {
+                                    "playable": true,
+                                    "reason": "PLAYABLE"
+                                },
+                                "playcount": "15810419",
+                                "trackNumber": 4,
+                                "uri": "spotify:track:0DZwrC4QQOYqpcxCeZzwDg"
+                            }
+                        },
+                        "uid": "65626262316165613164333665333061"
+                    }
+                ],
+                "pagingInfo": {
+                    "limit": 50,
+                    "offset": 25
+                },
+                "totalCount": 50
+            }
+        }
+    }
+}
